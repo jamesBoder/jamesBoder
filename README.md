@@ -4,7 +4,7 @@ Junior backend developer passionate about building meaningful apps with **Go** a
 Currently crafting a Daily Stoic/Philosophy app and a Words of Praise app.
 
 ## 🛠 Tech
-`Go` `Python` `TypeScript` `JavaScript` `React`
+`Go` `Python` `TypeScript` `JavaScript` `React` `SQL`
 
 ## 📌 Currently
 - 📚 Taking the **Boot.dev DevOps** course (Boot.dev certified)
