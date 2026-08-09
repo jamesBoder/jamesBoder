@@ -1,25 +1,32 @@
-# Hello, I'm James 
+# Hello, I'm James
 
-Full-stack developer with a focus on **DevOps & Cloud** — building and shipping production apps with **Go**, **React**, and **TypeScript**.
+Backend & DevOps engineer building production apps on **Go + AWS serverless** — event-driven architectures with Lambda, EventBridge, SQS, DynamoDB, and Terraform.
 
-**[Words of Praise](https://wordsofpraise.app)** — A live Bible app with 13+ feature modules, Stripe monetization, 4-language support, and a full CI/CD pipeline with automated testing, security scanning, and zero-downtime deployments on Fly.io.
+## 🚀 Projects
 
-**DailyXam** — A Daily Stoic/Philosophy companion app.
+**DaemonCode** *(in development)* — Daily behavioral analysis app built on 7 Go Lambda microservices spanning 25+ AWS resource types. Event-driven serverless architecture: EventBridge scheduling, SQS with DLQs, DynamoDB, KMS-encrypted secrets, all provisioned with Terraform.
+
+**[Words of Praise](https://wordsofpraise.app)** — Live Bible app with 13+ feature modules, Stripe monetization, 4-language support, and a full CI/CD pipeline: automated testing, security scanning, and zero-downtime deploys with health-check rollback.
+
+**[DailyXam](https://dailyxam.com)** — Multi-tradition philosophy platform (Stoicism, Buddhism, Taoism, and more) featuring an AI philosopher dialogue built on RAG + pgvector, daily practice mechanics, and lifetime-tier monetization.
+
+**Postington** *(internal tooling)* — Social media scheduling service with verified live publishing to Instagram, Facebook, and TikTok. One-time self-deleting EventBridge schedules, SQS publish queue with DLQ, Go Lambda publisher with a platform adapter registry, and KMS-encrypted OAuth credential storage.
 
 ## 🛠 Tech
-`Go` `TypeScript` `React` `Python` `PostgreSQL` `Docker` `GitHub Actions` `Fly.io` `Nginx`
+`Go` `TypeScript` `React` `Python` `PostgreSQL` `AWS Lambda` `DynamoDB` `EventBridge` `SQS` `S3` `Terraform` `Docker` `GitHub Actions`
 
 ## ☁️ DevOps & Cloud
+- **AWS Serverless** — Lambda (Go), EventBridge schedules & cron, SQS + DLQ patterns, DynamoDB, S3, KMS, IAM least-privilege
+- **IaC** — Terraform across all environments
 - **CI/CD** — GitHub Actions (path-filtered workflows, Postgres service containers, health-check rollback, auto-rollback on failed deploys)
-- **Cloud** — Fly.io (multi-app deployment, secrets vault, zero-downtime deploys)
 - **Containers** — Docker multi-stage builds, Docker Compose for local dev
-- **Observability** — Codecov coverage tracking, bundle size enforcement, Dependabot
-- **Security** — gosec scanning on every PR, branch protection, GitHub Environments
+- **Security & Observability** — gosec on every PR, Dependabot, Codecov coverage tracking, branch protection, GitHub Environments
 
 ## 📌 Currently
-- 🚀 Shipped a full CI/CD pipeline on Words of Praise — 3 GitHub Actions workflows, automated testing, security scanning, and health-check rollback on every deploy
-- 📚 Boot.dev DevOps certified
-- 🔍 Open to **DevOps / Cloud / Go backend** roles — junior or internship
+- ☁️ Preparing for **AWS Certified Cloud Practitioner** (CLF-C02), on the path to Solutions Architect Associate
+- 🏗️ Building out event-driven serverless services across a multi-app portfolio
+- 📚 Boot.dev Backend Engineering & DevOps certified
+- 🔍 Open to **DevOps / Cloud / Go backend** roles
 
 ## 📬 Find Me
 [![Instagram](https://img.shields.io/badge/Instagram-@jamesboder-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/jamesboder)
